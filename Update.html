@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Student Information</title>
+    <link rel="stylesheet" href="index.css"> 
+</head>
+<body>
+    <div class="main">
+        <div class="bg_img">
+            <nav class="nav_bar">
+                <h3>CRUD App</h3>
+                <div class="nav_links">
+                    <a href="index.html">Create</a>
+                    <a href="Update.html">Update</a>
+                    <a href="Get.html">Get</a>
+                </div>
+            </nav>
+            <div class="signup">
+                <h2 style="text-align: center; padding: 10px; font-size: 40px;">Update Student Information</h2>
+                <div class="content">
+                    <img class="books" src="books.avif" alt="Books Image">
+                    <div class="registration-form">
+                        <form>
+                            <label class="label" for="email">Student Email:</label>
+                            <input type="email" id="email" placeholder="Enter your email" name="email" required>
+
+                            <label class="label" for="name">Update Name:</label>
+                            <input type="text" id="name" placeholder="Enter your name" name="name" required>
+                            
+                            <label class="label" for="college">Update College:</label>
+                            <input type="text" id="college" placeholder="Enter your College" name="college" required>
+                            
+                            <label class="label" for="course">Update Description:</label>
+                            <textarea id="course" name="course" rows="6" cols="50" style="width: 100%; margin-top: 5px;" required></textarea>
+
+                            <button type="submit" id="updateBtn">Update</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <p>© 2024 CRUD App All Rights Reserved</p>
+                <p>
+                    <a href="#">Privacy Policy</a> | 
+                    <a href="#">Terms of Service</a> | 
+                    <a href="#">Contact Us</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="update.js"></script> 
+</body>
+</html>
